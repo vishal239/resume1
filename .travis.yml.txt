@@ -1,0 +1,10 @@
+dist: trusty
+sudo: false
+language: generic
+addons:
+  sonarcloud:
+    organization: "keerthi-351553-github"
+    token:
+      secure: "c32ed4980caaf945de3eb4232188222f5cbf7f8e"
+script:
+  - sonar-scanner
